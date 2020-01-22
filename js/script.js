@@ -5,7 +5,7 @@
 COMPILED CODE
 */
 
-document.addEventListener("DOMContentLoaded",function(){function g(){$.getJSON("http://blynk-cloud.com/dHeSr2A_yh9uwwfzz8rlHhcgB1GcTygy/project",function(b){(function(f){f=document.querySelectorAll(f);Array.prototype.forEach.call(f,function(a,d){function h(){requestAnimationFrame(h);var a=(new Date).getTime()-p;if(a<=q){var b=x-k;b=1>(a/=q/2)?b/2*a*a*a*a+k:-b/2*((a-=2)*a*a*a-2)+k;c=b;0==d?l.innerHTML=Math.round(100*c)/100+" %":1==d?l.innerHTML=Math.round(100*c)/100+" \u2103":3==d&&(l.innerHTML=Math.round(100*
+document.addEventListener("DOMContentLoaded",function(){function g(){$.getJSON("http://blynk-cloud.com/...../project",function(b){(function(f){f=document.querySelectorAll(f);Array.prototype.forEach.call(f,function(a,d){function h(){requestAnimationFrame(h);var a=(new Date).getTime()-p;if(a<=q){var b=x-k;b=1>(a/=q/2)?b/2*a*a*a*a+k:-b/2*((a-=2)*a*a*a-2)+k;c=b;0==d?l.innerHTML=Math.round(100*c)/100+" %":1==d?l.innerHTML=Math.round(100*c)/100+" \u2103":3==d&&(l.innerHTML=Math.round(100*
 c)/100+" %");a=1.5*Math.PI;0==d&&55>c&&(c-=10);1==d&&(c=0!=c?c+35:c+10);2==d&&(c=0!=c?15*c:c+10);b=a+c/50*Math.PI;e.clearRect(0,0,canvas.width,canvas.height);e.beginPath();e.arc(r,t,u,a,4*Math.PI,!1);e.lineWidth=m;e.strokeStyle="#ddd";e.stroke();e.beginPath();e.arc(r,t,u,a,b,!1);e.lineWidth=m;e.strokeStyle=y;e.stroke()}}var f,g,v,z,e,m,r,t,u,c,k,x,q,p,y,l,n=function(){g=f=parseInt(window.getComputedStyle(a).width);0==d&&a.setAttribute("data-cp-percentage",b.widgets[0].value);1==d&&a.setAttribute("data-cp-percentage",
 b.widgets[1].value);2==d&&a.setAttribute("data-cp-percentage",b.widgets[2].value);3==d&&a.setAttribute("data-cp-percentage",b.widgets[3].value);v=a.getAttribute("data-cp-percentage");z='<span class="percentage"><strong>'+v+'</strong> </span><canvas class="circleProgressCanvas" width="'+2*f+'" height="'+2*g+'"></canvas>';a.innerHTML=z;l=a.querySelector(".percentage");canvas=a.querySelector(".circleProgressCanvas");a.style.height=canvas.style.width=canvas.style.height=f+"px";e=canvas.getContext("2d");
 r=canvas.width/2;t=canvas.height/2;k=c=0;x=v;q=1E3;m=25;u=canvas.width/2-m;y=a.getAttribute("data-cp-color");0==d&&(60<b.widgets[0].value?a.setAttribute("data-cp-color","#F4471D"):50>b.widgets[0].value?a.setAttribute("data-cp-color","#F2D031"):a.setAttribute("data-cp-color","#86DB4A"));1==d&&(28<b.widgets[1].value?a.setAttribute("data-cp-color","#F4471D"):25>b.widgets[1].value?a.setAttribute("data-cp-color","#F2D031"):a.setAttribute("data-cp-color","#86DB4A"));2==d&&(8<b.widgets[2].value?a.setAttribute("data-cp-color",
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function getSensor() {
 
-    $.getJSON('http://blynk-cloud.com/dHeSr2A_yh9uwwfzz8rlHhcgB1GcTygy/project', function (data) {
+    $.getJSON('http://blynk-cloud.com/...../project', function (data) {
 
       var circleProgress = function (selector) {
         var wrapper = document.querySelectorAll(selector);
